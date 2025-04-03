@@ -44,6 +44,7 @@ public class HTTPRequests {
             .log().all()
             .extract().jsonPath().getInt("id"); // ✅ Corrected ID extraction--extracting id from the response
         System.out.println("the id is----->"+id);
+        ///hiiinnnn
 	}
 	
 	@Test(priority=3)
