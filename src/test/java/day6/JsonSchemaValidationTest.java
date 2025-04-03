@@ -8,7 +8,7 @@ public class JsonSchemaValidationTest {
     void testJsonSchemaValidation() {
     	String response = given()
             .when()
-                .get("http://localhost:3000/students")  // API Endpointss
+                .get("http://localhost:3000/students")  // API Endpointss333
             .then()
                 .assertThat()
                 .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("jsonSchema.json"))
