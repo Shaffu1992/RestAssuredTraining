@@ -15,7 +15,7 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.testng.annotations.Test;
 public class DifferentWaysToCreatePostBody {
-	//adding student data fff
+	//adding student data fff ggg
 //	@Test(priority=1)
 	void testPostUsingHashMap()
 	{ 	// to create api
