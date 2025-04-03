@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>RestAssured</groupId>
+  <artifactId>RestAssured</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <dependencies>
+    <!-- Rest Assured for API Testing -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.5.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- TestNG for Test Framework -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.8.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- JSON Schema Validator -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-schema-validator</artifactId>
+        <version>5.3.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Gson for JSON Serialization -->
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.10.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- JSON Path for JSON Parsing -->
+    <dependency>
+        <groupId>com.jayway.jsonpath</groupId>
+        <artifactId>json-path</artifactId>
+        <version>2.9.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- XML Path for XML API Testing -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>xml-path</artifactId>
+        <version>5.5.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Java Faker for Generating Random Test Data -->
+    <dependency>
+        <groupId>com.github.javafaker</groupId>
+        <artifactId>javafaker</artifactId>
+        <version>1.0.2</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- org.json lib to create post data -->
+    <dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20230227</version> <!-- Latest version, check for updates if needed -->
+</dependency>
+
+
+  </dependencies>
+
+</project>

@@ -1,0 +1,13 @@
+{
+     
+     "firstName": "Heena",
+     "lastName": "khan",
+     "age": "15",
+     "grade": "9th",
+     "email": "liamdavis@example.com",
+     "enrolledSubjects": [
+       "Physical Education",
+       "Math",
+       "History"
+     ]
+   }
