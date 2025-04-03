@@ -23,7 +23,7 @@ public class HTTPRequests {
 			.statusCode(200)
 			.body("page",equalTo(2))
 			.log().all();
-		////shaffu change noooo
+		////shaffu change noooohhh
 	}
 
 	@Test(priority=2)
